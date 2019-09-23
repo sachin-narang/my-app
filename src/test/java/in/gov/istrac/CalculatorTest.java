@@ -21,5 +21,13 @@ public class CalculatorTest {
 		assertEquals(25, Result);
 		//fail("Not yet implemented");
 	}
+	
+	@Test
+	public void testSubtract() {
+		Calculator CalculatorInstance = new Calculator();
+		int Result = CalculatorInstance.subtract(5,5);
+		assertEquals(0, Result);
+		//fail("Not yet implemented");
+	}
 
 }
